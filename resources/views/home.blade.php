@@ -48,7 +48,10 @@
                                     </form>
 
                                     <hr>
+                                    @isset($output)
                                     <h3>Result : {{ $output }}</h3>
+                                    @endisset
+
 
                                 </div>
                             </div>
